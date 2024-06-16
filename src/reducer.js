@@ -12,7 +12,7 @@ export const reducer = (state, action) => {
     case "SUCCESS":
       return {
         ...state,
-        loading: true,
+        loading: false,
         error: false,
         catImage: action.payload,
       };
